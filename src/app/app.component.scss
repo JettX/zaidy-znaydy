@@ -120,14 +120,6 @@ $transition: 0.3s ease;
     margin: 0 auto;
   }
 
-  &__ornaments {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 1.5rem;
-  }
-
   &__ornament {
     font-size: 2rem;
     color: $brown-light;
@@ -153,11 +145,6 @@ $transition: 0.3s ease;
     @media (min-width: 768px) {
       font-size: 3rem;
     }
-  }
-
-  &__quote-mark {
-    color: $brown-light;
-    font-weight: 400;
   }
 
   &__tagline {
